@@ -1,0 +1,20 @@
+{
+  "name": "00-frontenddep",
+  "version": "0.0.0",
+  "description": "Codigo base para administrar paqueteria front-end",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/edwardlr95/diaw-2020-12.git"
+  },
+  "keywords": ["node","frontend"],
+  "author": "edwardlr95 <edward9512@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/edwardlr95/diaw-2020-12/issues"
+  },
+  "homepage": "https://github.com/edwardlr95/diaw-2020-12#readme"
+}

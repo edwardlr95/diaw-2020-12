@@ -13,6 +13,15 @@ module.exports = {
         contentBase: path.join(__dirname,'dist'),
         port: 4040,
         compress: true,
-        publicPath: '/'
+        publicPath: '/' 
+    },
+    module:{
+        rules:[
+            {
+            test: /\.(.js)$/,
+            exclude: /node_modules/,
+            use: ['babel-loader']
+            },
+        ]
     }
 }
